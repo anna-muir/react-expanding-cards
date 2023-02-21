@@ -56,7 +56,8 @@ const Cards = () => {
     }
 
     const toggleStylesZero = (index) => {
-        if (cardClass.objects[1 || 2 || 3 || 4] === cardClass.active) {
+        if (cardClass.objects[1] === cardClass.active || cardClass.objects[2] === cardClass.active ||
+            cardClass.objects[3] === cardClass.active || cardClass.objects[4] === cardClass.active) {
             return "card"
         }
 
